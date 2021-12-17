@@ -1,0 +1,64 @@
+html {
+    scroll-behavior: smooth;
+}
+.navbar-brand {
+    margin-left: 80px;
+    /* padding-left: 50px; */
+}
+.nav-item {
+    margin-left: 150px;
+}
+.container {
+    /* background-color: aqua; */
+    width: 100%;
+    height: 600px;
+}
+
+.hero {
+    top: 50%;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+
+@media (max-width:800px) {
+    .hero {
+        margin-top: 30px;
+    }
+}
+.icon {
+    cursor: pointer;
+}
+
+/* Categories section */
+
+.img-book {
+    border-radius: 20px;
+}
+.row {
+    border-radius: 30px;
+}
+.Feature {
+    border-radius: 20px;
+}
+.Home {
+    background: linear-gradient(rgba(241, 92, 95, 0.8)30%,rgba(214, 188, 189, 0.8));
+}
+.nav-link {
+    transition: all 1s ease-in-out linear;
+}
+.nav-link:hover {
+    /* background:linear-gradient(rgba(210,100,200,0.8),rgba(40,50,120,0.8)); */
+    background: white;
+    transform: scale(1.1);
+    border-radius: 50%;
+}
+.img-fluid {
+    transition: all 1s ease-in linear;
+}
+.img-fluid:hover {
+    transform: scale(1.01);
+    box-shadow: 0 1px 1px black;
+    border: 1px dotted black;
+}
